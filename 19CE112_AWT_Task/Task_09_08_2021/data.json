@@ -1,0 +1,33 @@
+[
+    {
+      "id": 0,
+      "productName": "Boat Rockerz",
+      "type": "electronics",
+      "dicount": "20%",
+      "price": "50",
+      "description": "If you want to enjoy immersive entertainment on the move without any strings attached, then buy the boAt Rockerz 400 Super Extra Bass Bluetooth Headset. This powerful headset features 40-mm Dynamic Drivers, a Passive Noise Cancellation technology, and a Dual Mode to let you dive into your favorite music without interruption or physical limitations."
+    },
+    {
+      "id": 1,
+      "productName": "POCO M2 PRO",
+      "type": "electronics",
+      "dicount": "20%",
+      "price": "50",
+      "description": "If you want to enjoy immersive entertainment on the move without any strings attached, then buy the boAt Rockerz 400 Super Extra Bass Bluetooth Headset. This powerful headset features 40-mm Dynamic Drivers, a Passive Noise Cancellation technology, and a Dual Mode to let you dive into your favorite music without interruption or physical limitations."
+    },
+    {
+      "id": 2,
+      "productName": "POCO M2 PRO",
+      "type": "electronics",
+      "dicount": "20%",
+      "price": "50",
+      "description": "If you want to enjoy immersive entertainment on the move without any strings attached, then buy the boAt Rockerz 400 Super Extra Bass Bluetooth Headset. This powerful headset features 40-mm Dynamic Drivers, a Passive Noise Cancellation technology, and a Dual Mode to let you dive into your favorite music without interruption or physical limitations."
+    },
+    {
+      "productName": "POCO M2 PRO",
+      "type": "electronics",
+      "dicount": "20%",
+      "price": "50",
+      "description": "If you want to enjoy immersive entertainment on the move without any strings attached, then buy the boAt Rockerz 400 Super Extra Bass Bluetooth Headset. This powerful headset features 40-mm Dynamic Drivers, a Passive Noise Cancellation technology, and a Dual Mode to let you dive into your favorite music without interruption or physical limitations."
+    }
+  ]

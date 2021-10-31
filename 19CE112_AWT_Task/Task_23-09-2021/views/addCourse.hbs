@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courses</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h3 class="text-center">Add Course</h3>
+    <div class="container m-5">
+        <form action="http://localhost:3232/db-insert-course" method="POST">
+            <div class="form-group">
+                <label>Course-ID</label>
+                <input type="text" class="form-control" placeholder="Enter course id" name="courseId">
+            </div>
+            <div class="form-group">
+                <label>Course-Name</label>
+                <input type="text" class="form-control" placeholder="Enter course name" name="courseName">
+            </div>
+            <div class="form-group">
+                <label>Department-Name</label><br>
+                <input type="radio" value="CE" class="form-controll" name="deptName"><span> CE</span><br>
+                <input type="radio" value="IT" class="form-controll" name="deptName"><span> IT</span><br>
+                <input type="radio" value="CSE" class="form-controll" name="deptName"><span> CSE</span><br>
+            </div>
+            <div class="form-group">
+                <label>Institute-Name</label><br>
+                <input name="instName" type="checkbox" value="CSPIT"/><span> CSPIT</span><br>
+                <input name="instName" type="checkbox" value="DEPSTAR"/><span> DEPSTAR</span><br>
+                <input name="instName" type="checkbox" value="CMPICA"/><span> CMPICA</span><br>
+            </div>
+            <label>University-Name</label>
+            <select class="custom-select" name="uniName">
+                <option value="Charusat">Charotar University of Science And Technology</option>
+                <option value="Nirma">Nirma University</option>
+                <option value="Daiict">Dhirubhai Univercity</option>
+                <option value="Pdpu">PDPU</option>
+            </select>
+            <button type="submit" class="btn btn-primary m-2">Submit</button>
+            <a href='/get-courses' class="btn btn-dark m-2">All Courses</a>
+        </form>
+        <p>{{status}}</p>
+    </div>
+</body>
+</html>
